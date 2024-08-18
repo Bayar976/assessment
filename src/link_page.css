@@ -1,0 +1,98 @@
+.page_header {
+    background-color: rgb(158, 146, 146);
+}
+
+.nav_back {
+    display: flex;
+    justify-content: center;
+    font-family: 'futura', 'sans-serif';
+    font-size: 15px;
+    justify-self: center;
+    margin: 40px 0;
+}
+
+.nav_back :hover {
+    font-size: 18px;
+    color: rgb(43, 19, 19);
+    font-weight: bold;
+}
+
+[class*="head_page"] {
+    padding: 80px 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head_page .title {
+    color: rgb(44, 44, 84);
+}
+
+.page_footer {
+    display: flex;
+    justify-content: center;
+}
+
+.profile_page {
+    position:relative;
+    background-color: rgba(4, 4, 4, 0.582);
+}
+
+.profile {
+    display: flex;
+    padding: 80px 0px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .profile {
+      flex-direction: column;
+}
+
+}
+
+.profile .description {
+    margin: 0 50px;
+  
+}
+
+.line_height {
+    line-height: 30px;
+}
+
+.page_section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 30px 0 0 30px;
+}
+
+.page_container {
+    padding: 40px 40px 0 0;
+    width: 350px;
+}
+
+.sub_title {
+    margin: 0 0 30px 0;
+    color: rgba(34, 216, 150, 0.925);
+}
+
+.list {
+    font-size: 20px;
+    font-family: 'futura', 'sans-serif';
+
+}
+
+.blog_page{
+    background: rgba(4, 4, 4, 0.582) ;
+}
+
+.blog_article p {
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
